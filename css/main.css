@@ -1,0 +1,165 @@
+/* general */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+body {
+    font-family: 'Noto Sans', "Verdana","Avenir Next";
+}
+
+
+
+.hidden { display: none; }
+
+#main-wrapper {
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 90px;
+    padding-bottom: 10px;
+    box-shadow: 0 0 20px #aa7eba;
+}
+
+/* header */
+
+header {
+    height: 100px;
+    background: linear-gradient(180deg, #2d2db0 -65%, rgb(122, 102, 196) 110%);
+    color: black;
+    
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+
+}
+
+#logo {
+    width: 180px;
+    padding: 15px;
+    padding-top: 25px;
+    border-style: solid;
+    padding-left: 50px;
+}
+
+.menu_list {
+    list-style-type: none;
+    display: flex;
+    text-align: center;
+    margin-left: 300px;
+
+}
+
+.menu_list li {
+    text-decoration: none;
+    margin-right: 53px;
+    margin-top: 46px;
+    margin-left: 15px;
+}
+
+.menu_icons {
+    list-style-type: none;
+}
+
+.menu_icons #cart {
+    height: 50px;
+    color: #fff;
+}
+
+
+/* hero */
+
+
+#hero_content h2 {
+    text-align: center;
+    color: #aa7eba;
+    padding-top: 70px;
+}
+
+#hero_content h2:last-of-type {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    padding-top: 8px;
+}
+
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 5px solid rgb(122, 102, 196);
+  border-right: none;
+  padding: 5px;
+  height: 25px;
+  border-radius: 8px 0 0 5px;
+  outline: none;
+  color: rgb(122, 102, 196);
+
+}
+
+
+.searchButton {
+  width: 70px;
+  height: 45px;
+  border: 1px solid rgb(122, 102, 196);
+  background: rgb(122, 102, 196);
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+}
+
+.wrap{
+  width: 50%;
+  left: 310px;
+  padding-top: 40px;
+  padding-left: 300px;
+}
+
+.wrap img {
+    height: 25px;
+}
+
+/* icons */
+
+
+.icon-container {
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 100px;
+}
+
+.icon-container .iconBox {
+    margin-right: 70px;
+    margin-left: 70px;
+    margin-bottom: 100px;
+}
+
+.iconBox {
+    padding: 20px;
+    width: 100px;
+    color: #fff;
+    border: solid 4px #7a66c4;
+    border-radius: 70px;
+    padding-right: 20px;
+}
+
+footer {
+    text-align: center;
+}
+
+  
