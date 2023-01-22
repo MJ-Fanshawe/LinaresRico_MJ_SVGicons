@@ -1,1 +1,0 @@
-# LinaresRico_MJ_SVGicons
