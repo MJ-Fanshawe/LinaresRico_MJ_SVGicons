@@ -1,9 +1,9 @@
 console.log('JavaScript is running!');
 
-const vectorGraphic= document.querySelector('#music_note');
+const vectorGraphic = document.querySelector('.iconBox');
 
 function logThisId() {
-    console.log('clicked on this element:', this.id);
+    console.log('clicked on this icon:', this.id);
 }
-
 vectorGraphic.addEventListener('click', logThisId);
+
